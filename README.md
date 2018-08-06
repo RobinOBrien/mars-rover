@@ -36,9 +36,9 @@ If the rover executes the moves in the last line, its final position will be 3 3
 ### Output
 
 Once the program has run to completion, the Rovers current state will be printed in the following format: <br>
-<br>
-Rover: Position: 2/4 Direction: N <br>
-<br>
+<pre>
+Rover: Position: 2/4 Direction: N
+</pre>
 This means the rover is the position x=2, y=4 facing North.
  
 
@@ -56,8 +56,7 @@ mvn test
 
 #### Building
 
-This project makes use of Maven. Thus we are able to build the project using the following com.next45.challenge.command: <br>
-<br>
+This project makes use of Maven. Thus we are able to build the project using the following com.next45.challenge.command: 
 <pre>
 mvn package
 </pre>
